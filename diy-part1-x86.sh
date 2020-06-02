@@ -9,10 +9,7 @@
 #=============================================================
 
 # fw876/helloworld
-# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Lienol/openwrt-package
-# sed -i '$a src-git lienol https://github.com/TinyTitanPro/lienol-openwrt-package.git' feeds.conf.default
-
-# adams549659584/openwrt-package
-sed -i '$a src-git adams549659584 https://github.com/adams549659584/openwrt-package.git' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/adams549659584/openwrt-package.git' feeds.conf.default
